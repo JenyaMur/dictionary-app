@@ -36,7 +36,7 @@ width: 200px;
   color: #c368ee;
   background-color: #fff;
 }
-.WordInformation section {
+ section {
   margin: 20px 0;
   padding: 10px 20px;
   background-color: #fff;
@@ -66,4 +66,8 @@ width: 200px;
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #f1f1f1;
+}
+.Photos img {
+  margin: 20px auto;
+  border-radius: 5px;
 }

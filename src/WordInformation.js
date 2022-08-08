@@ -3,7 +3,6 @@ import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
 
 export default function WordInformation(props) {
-    console.log(props.data);
     if(props.data) {
          return (
             <div className="WordInformation">
