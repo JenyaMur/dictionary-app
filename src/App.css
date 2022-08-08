@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 30px;
 }
 
 .App-logo {
@@ -7,5 +14,56 @@ width: 200px;
 }
 
 .App-header {
-  margin: 30px 0;
+      display: flex;
+      justify-content: center;
+}
+
+.Dictionary h1 {
+  color: #8109b7;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 24px;
+}
+.Dictionary input {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.search-button {
+  background-color: #c368ee;
+  color: #fff;
+}
+.search-button:hover {
+  color: #c368ee;
+  background-color: #fff;
+}
+.WordInformation section {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.WordInformation h2 {
+  opacity: 0.7;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.Meaning h3{
+  opacity: 0.7;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.phonetic-text {
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.SynonymsOfDefinition ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #f1f1f1;
 }

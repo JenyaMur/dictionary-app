@@ -5,7 +5,7 @@ export default function SynonymsOfDefinition(props) {
         return ( null
     );
     } else if(props.synonym.length === 1) {
-         return <div>
+         return <div className="SynonymsOfDefinition">
             <strong>Synonym:</strong>
             <ul>
                 {props.synonym.map(function(synonym, index) {
@@ -14,7 +14,7 @@ export default function SynonymsOfDefinition(props) {
             </ul>   
         </div>
     } else {
-        return <div>
+        return <div className="SynonymsOfDefinition">
             <strong>Synonyms:</strong>
             <ul>
                 {props.synonym.map(function(synonym, index) {
